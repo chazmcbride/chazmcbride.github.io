@@ -5,6 +5,11 @@ body {
 
 .main {
   border: 1px solid black;
+  max-width: 670px;
+  min-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8em;
 }
 /* --container 1 styles-- */
 .container1 {
