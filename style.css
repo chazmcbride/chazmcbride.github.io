@@ -14,6 +14,7 @@ body {
 /* --container 1 styles-- */
 .container1 {
   border: 1px solid black;
+  height: 100vh;
 }
 .name {
   border: 1px solid black;
