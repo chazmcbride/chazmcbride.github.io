@@ -9,7 +9,7 @@
   min-height: 568px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Roboto Condensed;
+  font-family: "Roboto 300";
   background: #FFFFFF;
   display: flex;
   flex-flow: column wrap;
@@ -83,7 +83,7 @@
   text-align: center;
   font-size: 3.12em;
   font-weight: bold;
-  font-family: Roboto;
+  font-family: "Roboto:900i";
   font-style: italic;
   background: #707070;
 
