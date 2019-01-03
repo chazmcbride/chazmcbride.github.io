@@ -4,8 +4,9 @@
   background: lightgrey;
 }
 #main {
-  
-
+  height: 100vh;
+  max-width: 600px;
+  min-width: 320px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Roboto', sans-serif;
@@ -71,14 +72,14 @@
 }
 .desc {
   background: #FA7268;
-  width: 458px;
+  width: 2000px;
   text-align: center;
   font-size: 1em;
   font-weight: 900;
   height: 25px;
 }
 #name {
-  width: 458px;
+  width: 100%;
   text-align: center;
   font-size: 3.12em;
   font-weight: 900;
