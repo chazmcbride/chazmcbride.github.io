@@ -1,4 +1,90 @@
 * {
   margin: 0px;
   padding: 0px;
+  background: lightgrey;
+}
+#main {
+  width: 320px;
+  height: 100vh;
+  min-height: 568px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto Condensed;
+  background: #FFFFFF;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: space-between;
+  justify-content: space-between;
+  overflow: hidden;
+}
+#navgrid {
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  grid-template-rows: 35px;
+  grid-gap: 10px;
+  justify-content: space-around;
+  font-size: 14px;
+  width: 100%;
+  background: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footergrid {
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  grid-template-rows: 35px;
+  grid-gap: 10px;
+  justify-content: end;
+  font-size: 14px;
+  width: 100%;
+  background: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.navbtn {
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 70px;
+  background-color: #FFFFFF;
+}
+.navbtn:hover {
+  background: #FA7268;
+}
+#home {
+  grid-column-start: 1;
+}
+#goals {
+  grid-column-start: 2;
+}
+#code {
+  grid-column-start: 3;
+}
+#journal {
+  grid-column-start: 4;
+}
+#welcome {
+  transform: rotate(330deg);
+  display: flex;
+  flex-flow: column wrap;
+  align-self: center;
+}
+.desc {
+  background: #FA7268;
+  width: 458px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 900;
+  height: 25px;
+}
+#name {
+  width: 458px;
+  text-align: center;
+  font-size: 3.12em;
+  font-weight: bold;
+  font-family: Roboto;
+  font-style: italic;
+  background: #707070;
+
 }
