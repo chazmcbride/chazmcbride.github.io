@@ -4,7 +4,7 @@
   background: lightgrey;
 }
 #main {
-  width: 320px;
+  min-width: 320px;
   height: 100vh;
   min-height: 568px;
   margin-left: auto;
