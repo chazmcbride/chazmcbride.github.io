@@ -124,11 +124,18 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  background: #707070;
   border: 3px solid red;
+  height: 75px;
   font-family: "Roboto";
   font-style: italic;
   font-weight: 900;
   font-size: 32px;
+}
+#goals p {
+  background: #707070;
 }
 #learn {
   display: flex;
@@ -144,6 +151,10 @@
   flex-flow: row wrap;
   justify-content: center;
   border: 3px solid red;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 32px;
 }
 #create {
   display: flex;
@@ -153,4 +164,10 @@
 }
 #create li {
   list-style-type: none;
+}
+#con1  {
+  width: 270px;
+  display: flex;
+  flex-flow: column wrap;
+  align-self: center;
 }
