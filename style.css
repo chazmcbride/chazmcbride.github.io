@@ -168,6 +168,8 @@ display: flex;
 }
 #everyday p {
   font-size: 40px;
+  font-weight: 900;
+  font-style: italic;
   background-color: #FA7268;
   text-align: center;
   color: #FFFFFF;
