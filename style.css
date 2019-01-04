@@ -197,3 +197,22 @@ display: flex;
   color: #FA7268;
   text-align: right;
 }
+#grid100 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 270px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(13, 1fr;);
+  grid-gap: 10px;
+}
+.checkbox {
+  background: #FA7268;
+  height: 25px;
+  width: 25px;
+}
+#box2 {
+
+}
