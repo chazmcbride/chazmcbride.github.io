@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  background: lightgrey;
+  background: white;
 }
 #main {
   height: 100vh;
@@ -135,13 +135,63 @@
   font-style: italic;
   font-weight: 900;
 }
-
 #con1 {
-  border: 3px solid red;
+  width: 270px;
+  margin: auto;
+  background: #FFFFFF;
 }
 #learn {
+display: flex;
 
 }
+#learn p {
+  width: 130px;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 900;
+  background: #FA7268;
+  text-align: center;
+  color: #FFFFFF;
+  padding:10px;
+  margin-right: 10px;
+}
 #learn li {
+  width: 130px;
+  font-size: 14px;
+  background: #FFFFFF;
   list-style-type: none;
+  color: #FA7268;
+}
+#everyday {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#everyday p {
+  font-size: 40px;
+  background-color: #FA7268;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px;
+}
+#create {
+  display: flex;
+}
+#create p {
+  width: 130px;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 900;
+  background: #FA7268;
+  text-align: center;
+  color: #FFFFFF;
+  padding:10px;
+  margin-left: 10px;
+}
+#create li {
+  font-size: 14px;
+  background: #FFFFFF;
+  list-style-type: none;
+  width: 130px;
+  color: #FA7268;
+  text-align: right;
 }
