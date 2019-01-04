@@ -50,6 +50,8 @@
   padding-bottom: 7px;
   width: 70px;
   background-color: #FFFFFF;
+  text-decoration: none;
+  color: #FA7268;
 }
 .navbtn:hover, .navbtn:active {
   background: #FA7268;
