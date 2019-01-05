@@ -288,6 +288,10 @@ display: flex;
   padding-right: 10px;
   margin-bottom: 10px;
 }
+#colorg {
+  color: #40C4FF;
+  background: #FA7268;
+}
 
 /*--grid for code.html --*/
 
