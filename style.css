@@ -97,7 +97,17 @@
   text-decoration: none;
   color: #FA7268;
 }
-.navbtnb:hover {
+.navbtnc {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  color: #707070;
+}
+.navbtnb:hover, .navbtnc:hover {
   background: #FA7268;
   color: #FFFFFF;
 }
@@ -263,8 +273,12 @@ display: flex;
 .work {
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 270px;
   display: flex;
   flex-flow: column wrap;
+}
+#work, a {
+
 }
 #work {
   width: 420px;
@@ -272,6 +286,7 @@ display: flex;
   text-align: justify;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 10px;
 }
 
 /*--grid for code.html --*/
