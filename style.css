@@ -5,8 +5,8 @@
 }
 #main {
   height: 100vh;
-  max-width: 736px;
-  min-width: 320px;
+  /*max-width: 736px;
+  min-*/width: 400px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Roboto Condensed', sans-serif;
@@ -18,8 +18,8 @@
   overflow: hidden;
 }
 #main2 {
-  max-width: 736px;
-  min-width: 320px;
+  /*max-width: 736px;
+  min-*/width: 400px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Roboto Condensed', sans-serif;
@@ -88,7 +88,20 @@
   text-decoration: none;
   color: #FFFFFF;
 }
-.navbtn:hover, .navbtna:hover, .navbtn:active {
+.navbtnb {
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 70px;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  color: #FA7268;
+}
+.navbtnb:hover {
+  background: #FA7268;
+  color: #FFFFFF;
+}
+.navbtn:hover, .navbtna:hover,  .navbtn:active .navbtna:active  {
   background: #FA7268;
   color: #FFFFFF;
 }
@@ -216,16 +229,47 @@ display: flex;
   font-style: italic;
   font-weight: 900;
   color: #FA7268;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
 }
-#box3 {
-  width: 270px;
+#box2 {
+  margin-top: 10px;
+}
+#jtemplate {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 21px;
+}
+#jtemplate, h2, p {
+  padding-left: 10px;
+}
+#jtemplate, p {
+  font-size: 14px;
+  font-weight: 100;
+}
+#jtemplate, h2 {
+  margin-top: 21px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #707070;
 }
 #day {
   background: #FA7268;
   color: #FFFFFF;
+  padding-left: 10px;
+  font-size: 25px;
+}
+.work {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: column wrap;
+}
+#work {
+  width: 100%;
+  font-size: 18px;
+  text-align: justify;
+  padding-left: 10px;
 }
 
 /*--grid for code.html --*/
