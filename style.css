@@ -218,6 +218,15 @@ display: flex;
   color: #FA7268;
   padding-bottom: 5px;
 }
+#box3 {
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#day {
+  background: #FA7268;
+  color: #FFFFFF;
+}
 
 /*--grid for code.html --*/
 
