@@ -158,7 +158,7 @@
 #goals {
   display: flex;
   align-self: center;
-  
+
 }
 #goals p{
   background: #707070;
@@ -202,11 +202,10 @@
 #everyday {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: "Roboto";
 }
 #everyday p {
+  font-family: "Roboto";
   font-size: 40px;
-  font-weight: 900;
   font-style: italic;
   background-color: #FA7268;
   text-align: center;
