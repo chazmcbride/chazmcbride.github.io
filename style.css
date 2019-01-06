@@ -312,6 +312,32 @@ display: flex;
   border-bottom: 3px solid #FA7268;
   padding-bottom: 13px;
 }
+#socials {
+  margin-left: auto;
+  margin-right: auto;
+  width: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 75vh;
+
+}
+.social {
+  border: 2px solid #FA7268;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  color: #FA7268;
+  font-size: 40px;
+}
+.social :hover {
+  color: #707070;
+  font-size: px;
+}
 
 /*--grid for code.html --*/
 
