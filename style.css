@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  background: white;
+
 }
 #main {
   height: 100vh;
@@ -13,7 +13,6 @@
   background: #FFFFFF;
   display: flex;
   flex-flow: column wrap;
-  align-items: space-between;
   justify-content: space-between;
   overflow: hidden;
 }
@@ -33,7 +32,6 @@
 }
 #navgrid {
   display: grid;
-  grid-template-columns: repeat(4 1fr);
   grid-template-rows: 35px;
   grid-gap: 10px;
   justify-content: space-around;
@@ -260,7 +258,6 @@
 }
 #jtemplate, p {
   font-size: 14px;
-  font-weight: 100;
   font-family: "Roboto Condensed";
 }
 #jtemplate, h2 {
