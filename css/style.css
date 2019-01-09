@@ -89,16 +89,7 @@
   text-decoration: none;
   color: #FA7268;
 }
-/*.navbtnc {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  text-decoration: none;
-  color: #707070;
-}*/
-.navbtnb:hover, .navbtnc:hover {
+.navbtnb:hover {
   background: #FA7268;
   color: #FFFFFF;
 }
